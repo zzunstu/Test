@@ -3,5 +3,5 @@ layout: default
 title: my first post page
 ---
 
-#header2
+#my post page1
 [Home](https://zzunstu.github.io/Test)
