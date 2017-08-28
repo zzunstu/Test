@@ -1,5 +1,4 @@
 ---
-layout: default
 title: my first post page
 ---
 
