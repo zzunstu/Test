@@ -1,4 +1,4 @@
-premalink: '/:title'
+permalink: '/:title/'
 theme: jekyll-theme-architect
 defaults:
 -
