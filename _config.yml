@@ -1,4 +1,4 @@
-premalink: "pretty"
+premalink: '/:title'
 theme: jekyll-theme-leap-day
 defaults:
 -
