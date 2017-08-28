@@ -1,5 +1,5 @@
 premalink: '/:title'
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-architect
 defaults:
 -
 scope:
