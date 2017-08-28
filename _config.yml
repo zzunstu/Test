@@ -1,1 +1,8 @@
 theme: jekyll-theme-architect
+defaults:
+-
+scope:
+  path: ""
+  type: "posts"
+values:
+  layouts: "post"
