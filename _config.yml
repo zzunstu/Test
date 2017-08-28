@@ -1,3 +1,4 @@
+premalink: "pretty"
 theme: jekyll-theme-architect
 defaults:
 -
@@ -6,3 +7,4 @@ scope:
   type: "posts"
 values:
   layouts: "post"
+
