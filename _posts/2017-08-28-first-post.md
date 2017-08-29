@@ -14,3 +14,17 @@ title: my first post page
   string s = "Hello?";
   Console.WriteLine(s);
 {% endhighlight %}
+
+~~~ruby
+def print_hi(name1)
+   puts "Hi, #{name1}"
+end
+~~~
+
+```
+def print_hi(name2)
+   puts "Hi, #{name2}"
+end
+```
+
+
