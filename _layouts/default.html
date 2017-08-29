@@ -1,6 +1,31 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+</head>
+
+<body>
             
- 
+    {% include navigation.html %}
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="main col-xs-12 col-md-8">
                     {{ content }}
-            
+                </div>
+                <div class="sidebar col-xs-12 col-md-4">
+                    {% include sidebar.html %}
+                </div>
+            </div>
+        </div>
+    </div>
 
+    {% include footer.html %}
+            
+</body>
+</html>
