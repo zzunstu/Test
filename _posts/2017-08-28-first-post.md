@@ -9,3 +9,8 @@ title: my first post page
    puts "Hi, #{name}"
   end
 {% endhighlight %}
+
+{% highlight C# %}
+  string s = "Hello?";
+  Console.WriteLine(s);
+{% endhighlight %}
