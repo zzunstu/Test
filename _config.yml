@@ -1,3 +1,6 @@
+title: 'Book Management System'
+description: 'This is a book management system.'
+date: '2017-8-28 15:30:20'
 permalink: '/:title/'
 theme: jekyll-theme-architect
 kramdown:
