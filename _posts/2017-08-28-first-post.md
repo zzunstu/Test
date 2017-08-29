@@ -26,5 +26,10 @@ def print_hi(name2)
    puts "Hi, #{name2}"
 end
 ```
+{% raw %}
+User Name: {{user.username}}
+Password: {{user.password}}
+{% endraw %}
+
 
 
