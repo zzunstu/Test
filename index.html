@@ -18,4 +18,21 @@ title: Jekyll
   </article>
   {% endfor %}
   
+<nav>
+    <ul class="pager">
+        {% if paginator.previous_page %}
+            <li class="previous">
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '/index.html', '/' }}"
+                    >&laquo; 前一页</a>
+            </li>
+        {% endif %}
+        {% if paginator.next_page %}
+            <li class="next">
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" >后一页 &raquo;</a>
+            </li>
+        {% endif %}
+    </ul>
+</nav>
+  
 </div>
+
