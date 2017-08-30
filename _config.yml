@@ -2,6 +2,7 @@ baseurl: /Test
 title: 'Book Management System'
 description: 'This is a book management system.'
 time: '2017-8-28 15:30:20'
+paginate: 5
 permalink: '/:title/'
 kramdown:
   input: GFM
