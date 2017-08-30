@@ -8,7 +8,7 @@ module Jekyll
       end
       
       configs = @context.registers[:site].config
-      seperator = configs['categories_seperator'] || ', '
+      seperator = configs['categories_seperator'] || '* '
       
       output.join(seperator)
     end
