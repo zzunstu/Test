@@ -7,4 +7,4 @@ module Jekyll
  end
 end
 
-Liquid:: Template.register_tag('jekyll_version', Jekyll::VersionTag)
+Liquid::Template.register_tag('jekyll_version', Jekyll::VersionTag)
