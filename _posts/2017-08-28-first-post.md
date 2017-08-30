@@ -1,5 +1,6 @@
 ---
-title: my first post page
+layout: post
+title: Gitment Pratice
 ---
 
 ## my post page1
