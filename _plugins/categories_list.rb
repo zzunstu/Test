@@ -32,3 +32,5 @@ module Jekyll
     
   end
 end
+
+Liquid::Template.register_tag('categories_list', Jekyll::CategoriesListTag)
