@@ -16,9 +16,9 @@ module Jekyll
 		
 		case page_type
 		when 'category'
-			"“#{page['title']}”分类的归档"
+			"#{page['title']}分类的归档"
 		when 'tag'
-			"“#{page['title']}”分类的归档"
+			"#{page['title']}标签的归档"
 		when 'year'
 			page['date'].strftime('%Y年') << '归档'
 		when 'month'
