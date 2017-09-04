@@ -5,7 +5,7 @@ time: '2017-8-28 15:30:20'
 paginate: 5
 permalink: '/:title/'
 jekyll-archives:
- enabled: ['categories']
+ enabled: ['categories', 'tags', 'year', 'month', 'day']
 kramdown:
   input: GFM
 defaults:
