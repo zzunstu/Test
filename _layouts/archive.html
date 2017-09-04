@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% if page.type == 'category' %}
-  {% capture page_title %}"{{}}"分类的归档 {% endcapture %}
+  {% capture page_title %}"{{ page.title }}"分类的归档 {% endcapture %}
 {% elsif page.type == 'tag' %}
-  {% capture page_title %}"{{}}"标签的归档 {% endcapture %}
+  {% capture page_title %}"{{ page.title }}"标签的归档 {% endcapture %}
 {% elsif page.type == 'year' %}
   {% assign page_title = page.date | date: '%Y年' | append: '归档' %}
 {% elsif page.type == 'month' %}
