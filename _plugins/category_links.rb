@@ -2,9 +2,11 @@ module Jekyll
   module CategoryLinksFilter
     def category_links(categories)
       return '' if categories.empty?
+	    
       output = []
+      jekyll_archives_installed = Jekyll.const_defined?('Archives', false)
       categories.each do |cat|
-        output << cat
+        output << (jekyll_archives_installed ? category_link(cat, @context) : cat)
       end
       
       configs = @context.registers[:site].config
